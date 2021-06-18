@@ -1327,6 +1327,7 @@ Transform:
   - {fileID: 132609884}
   - {fileID: 443836759}
   - {fileID: 864885925}
+  - {fileID: 1754908229}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12758,7 +12759,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 126474866}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 744e01d3d39888e4bb092f1d04f82869,
         type: 3}
@@ -12778,7 +12779,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 744e01d3d39888e4bb092f1d04f82869,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 744e01d3d39888e4bb092f1d04f82869,
         type: 3}
@@ -12798,7 +12799,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 744e01d3d39888e4bb092f1d04f82869,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 744e01d3d39888e4bb092f1d04f82869,
         type: 3}
@@ -12830,10 +12831,45 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: -2792853974181610616, guid: 744e01d3d39888e4bb092f1d04f82869,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -2702640934377892562, guid: 744e01d3d39888e4bb092f1d04f82869,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -246730645014267931, guid: 744e01d3d39888e4bb092f1d04f82869,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 744e01d3d39888e4bb092f1d04f82869,
         type: 3}
       propertyPath: m_Name
       value: ComPlaneV1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 744e01d3d39888e4bb092f1d04f82869,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8585237772708839886, guid: 744e01d3d39888e4bb092f1d04f82869,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747477217466138512, guid: 744e01d3d39888e4bb092f1d04f82869,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015465891814261811, guid: 744e01d3d39888e4bb092f1d04f82869,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 744e01d3d39888e4bb092f1d04f82869, type: 3}
@@ -12853,7 +12889,7 @@ Animator:
   m_GameObject: {fileID: 1754908227}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b8cb67fc8346d574991f39553ac3f785, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -12862,6 +12898,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &1754908229 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 744e01d3d39888e4bb092f1d04f82869,
+    type: 3}
+  m_PrefabInstance: {fileID: 1754908226}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1757088671
 GameObject:
   m_ObjectHideFlags: 0
